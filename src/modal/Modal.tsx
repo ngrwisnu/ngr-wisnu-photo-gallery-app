@@ -36,7 +36,7 @@ const Modal = ({
           <div style={styles.modalImageContainer}>
             <img
               style={styles.modalImage}
-              src={`https://ngrwisnu.github.io/ngr-wisnu-photo-gallery-app/images/${url}`}
+              src={`https://ngrwisnu.github.io/ngr-wisnu-photo-gallery-app${url}`}
             />
             <p style={styles.modalDescriptionText}>{description}</p>
           </div>
@@ -62,7 +62,7 @@ const Modal = ({
               >
                 <img
                   style={styles.image}
-                  src={`https://ngrwisnu.github.io/ngr-wisnu-photo-gallery-app/images/${image_data.url}`}
+                  src={`https://ngrwisnu.github.io/ngr-wisnu-photo-gallery-app${image_data.url}`}
                 />
               </div>
             );
