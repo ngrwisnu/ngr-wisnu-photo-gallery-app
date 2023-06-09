@@ -39,7 +39,10 @@ function App() {
                 }}
                 key={image_data.name}
               >
-                <img style={styles.image} src={image_data.url} />
+                <img
+                  style={styles.image}
+                  src={`https://ngrwisnu.github.io/ngr-wisnu-photo-gallery-app/${image_data.url}`}
+                />
                 <div style={styles.imageDescription}>
                   <p style={styles.imageDescriptionText}>{image_data.name}</p>
                 </div>
